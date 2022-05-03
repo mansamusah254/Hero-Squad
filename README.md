@@ -1,55 +1,66 @@
-# Hero Squad.
-#### This is a java application that allows the user to create squads and add heroes to the squad. 
-#### By **Phil Kipkemboi**
+# Hero Squad
+
+An app that allows you to recruit a well-balanced team of superheroes (or any other character of your choosing).
+
+
 ## Description
-Once the application runs, the user can add or view squads. The user can view and add heroes to a squad with a hero 
-being in only one squad at a time.
 
-## BDD
-| Input                                                         | Output                      |
-|---------------------------------------------------------------|-----------------------------|
-| The details of a squad such as name, maximum size and cause   | A squad                     |
-| The details of a hero such as a name, age, power and weakness | A hero belonging to a class |
+This project basically covers the objects within objects concept. You have to recruit a well-balanced team of superheroes (or any other character of your choosing). By that you have to have eevry hero created be assigned to a squad. Keep in mind no database was configured on this application and data is lost the moment you reload the application.
 
-## User Stories
-* As a user I should be able to view squads.
-* As a user I should be add a new squad.
-* As a user I should be able to view heroes in a squad.
-* As a user I should be able to add a hero to a squad.
+## Prerequisites
 
-### Setup
-* To run the application, first install the java development kit from `https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html`
-* Install gradle.
-* Next clone the project using `$ git clone https://github.com/verisence/hero-squad` to your preferred folder.
-* In the command prompt, navigate to cloned folder and use the following command to run the app `$ gradle run`
-* Open the browser and enter the address `localhost:4567`
+- Basic Git knowledge, including an installed version of Git.
+- Your application must run on the OpenJDK version 6, 7 or 8.
 
-## Technologies used
-* Java.
-* Gradle(for unit testing).
-* Bootstrap.
-* Spark.
-* Material Design Bootstrap.
+## Technologies Used
 
-## License
-MIT License
+- Java v9
+- Gradle
+- Spark Framework
+- CSS (Bootstrap)
+- JUnit v4.12
+- Jacoco Plugin
+- Velocity Templating Engine
 
-Copyright (c) 2019 Phil Kipkemboi
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Setup Installations Requirements
+* To run the application, in your terminal:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+    1. Clone or download the Repository
+    2. cd into directory then run `cd Hero-Squad`
+    3. Rebuild the Project Using Intellij IDEA or ...
+    4. Open terminal command line then navigate to the root folder of the application.
+    5. Run `gradle run` command.
+    6. Navigate to `http://localhost:4567/` in your browser.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+
+### Development
+
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request
+
+## Known Bugs
+
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/yomZsamora/Hero-Squad/issues/new) by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/yomZsamora/Hero-Squad/issues/new). Please include sample queries and their corresponding results.
+
+### License
+
+*MIT*
+Copyright (c) 2022 **mansamusah**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
